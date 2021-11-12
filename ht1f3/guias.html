@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+          <!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-float.min.css" integrity="sha256-sP0p6J7SbJGiJ2gkdY1nkVsLgdwiFN2kI370lU+zacQ= sha384-yZLxxcD8nfiSt1qfKJWwHwtkL58WZDTlkBnZN60qr3ZS35+LDsmUF2JHLxdyZ+KU sha512-Z3WbpfWFSsK2dBvoSYZnMvPmxSJUa5cxj3TYlmyj6cq8IXy7iB2nlUk+jjms8gnz4HmpQk/yhRSlRzW7keoSlg==" crossorigin="anonymous">
+
+      <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-prototype.min.css" integrity="sha256-ksLmXa0k3ACbX6azB9g6l7XlmSKFBkuH0DXKNwULXtE= sha384-RGTvu65DAT+yLQsTj5tnITDrMfrS5mbajNAYILSg4hHr9vRr/3Y9q0WAdChqLKfx sha512-KMJ7XYrv5UcwEvJFaYnLSdN5O3fT7aQvjed//LQPB3AsN4VPA/wXG9j4x4vKZkjNmU/U8aZC9Ac3FYxs9lPXcw==" crossorigin="anonymous">
+
+      <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-rtl.min.css" integrity="sha256-jvk46bzgetf2fy3FF19toDOoy9CG3aFqZfd229doSyo= sha384-w6E9ynA6OV6MFswc7C8nr8QoBiRtqqOKF/5M9ZVyVDDyrUPLI75xizNuXgRZxWK5 sha512-7MZk47L+5Mj6Y0dP3NuB2aqlNdDgzTlCf8m50nvgnCHUbxZ9KabCy8VUzQAl/DqDKwR7E6JsCf1MUjkfCiVzJw==" crossorigin="anonymous">
+
+      <!-- Insert this within your head tag and after foundation.css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css"/>
+
+      <link href="carrusel_b.css" rel="stylesheet" type="text/css" />
+      <script src="carrusel_b.js"></script>
+
+      <!--_______________SCRIPT DEL CARRUSEL_________________-->    
+      <script>
+        function principal() { // onload body
+          new CarruselB({
+            id: "carrusel_b",
+            waiting: 5000, // milliseconds (false per desactivar)
+          });
+        }
+      </script>
+  </head>
+<body onload="principal()">
+<!--TITULO DE LA PAGINA-->
+<center>
+  <div class="grid-x grid-margin-x">
+      <div class="cell small-12"></div>
+    <div class="cell auto" style="background-color: aqua; padding: 1em;"><h1>COLEGIO JOHN NAPIER</h1></div>
+  </div><br>
+<!--INICIA CARRUSEL-->
+<div id="carrusel_b">
+    <ul class="photos_b">
+        <li><img id="foto1" src="1.png" width="100%"/></li>
+        <li><img id="foto2" src="2.jpg" width="100%"/></li>
+        <li><img id="foto3" src="3.jpg" width="100%"/></li>
+    </ul>
+    <ul class="links_b">
+        <li><a href="#foto1"></a></li>
+        <li><a href="#foto2"></a></li>
+        <li><a href="#foto3"></a></li>
+    </ul>
+</div>
+</center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--____________________INICIA BARRA DE NAVEGACION___________________-->
+<div class="grid-x" align="center" style="background-color: orange;">
+  <center>
+<ul class="menu align-center">
+  <li class="is-active"><a href="index.html">INICIO</a></li>
+  <li><a href="ubicacion.html">UBICACIÓN</a></li>
+  <li><a href="guias.html">PROFESORES GUIA</a></li>
+</ul>
+</center>
+</div><br>
+
+<!--____________________INICIAN MAQUETACIONES DE CONTENIDO___________________-->
+<div class="grid-x">
+  <div class="cell medium-6 large-4" style="padding-top: 7em;"><img src="logopng.png"></div>
+  <div class="cell medium-6 large-8" style="padding: 1em;"><center><h2><b>TABLA DE PROFESORES GUÍAS</b></h2></center>
+    <table>
+      <thead>
+        <tr>
+          <th width="150"><center>GRADO</center></th>
+          <th width="150"><center>SECCIÓN</center></th>
+          <th width="150"><center>MAESTRO GUÍA</center></th>
+          <th width="150"><center>CORREO ELECTRÓNICO</center></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center>Primero Básico</center></center></td>
+          <td><center>A</center></td>
+          <td><center>Martha Sánchez</center></td>
+          <td><center>marthasanchez@johnapier.com.gt</center></td>
+        </tr>
+        <tr>
+          <td><center>Primero Básico</center></td>
+          <td><center>B</center></td>
+          <td><center>Daniel Martínez</center></td>
+          <td><center>danielmartinez@johnapier.com.gt</center></td>
+        </tr>
+        <tr>
+          <td><center>Segundo Básico</center></td>
+          <td><center>A</center></td>
+          <td><center>Josué Álvarez</center></td>
+          <td><center>josuealvarez@johnapier.com.gt</center></td>
+        </tr>
+        <tr>
+          <td><center>Segundo Básico</center></td>
+          <td><center>B</center></td>
+          <td><center>Ricardo Móntes</center></td>
+          <td><center>ricardomontes@johnapier.com.gt</center></td>
+        </tr>
+        <tr>
+          <td><center>Tercero Básico</center></td>
+          <td><center>A</center></td>
+          <td><center>Marcos Puluc</center></td>
+          <td><center>marcospuluc@johnapier.com.gt</center></td>
+        </tr>
+        <tr>
+          <td><center>Tercero Básico</center></td>
+          <td><center>B</center></td>
+          <td><center>Genovevo Páez</center></td>
+          <td><center>genovevo.paez@johnapier.com.gt</center></td>
+        </tr>    
+      </tbody>
+    </table>
+</div>
+</div>
+<div class="grid-x">
+  <div class="cell medium-6 large-4" style="padding-left: 2em; ">
+    <center><h3>FORMULARIO DE ACCESO</h3>
+      <form>
+        NOMBRE DE USUARIO <br>
+        <input type="text" name="User"><br>
+        CONTRASEÑA <br>
+        <input type="text" name="Pass"><br><br>
+        <a class="button expanded" href="#">ACCEDER AL SISTEMA</a>
+      </form>
+    </center>
+  </div>
+    <div class="cell medium-6 large-8">
+      
+  </div>
+</div>
+<hr>
+<center>
+  <p style="font-style: italic;"><b>Colegio John Napier, 5av. 12-32 zona 5, Guatemala johnnapier@johnnapier.com.gt</b></p>
+</center>
+</body>
+</html>

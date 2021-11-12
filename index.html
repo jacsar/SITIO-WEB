@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Principal</title>
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+  <!-- Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!--<link rel="stylesheet" type="text/css" href="../estilos.css">-->
+<style>
+  .container-fluid{
+  padding-top: 3em;
+  height: 400px;
+  background-image: url(lab.jpg);
+  animation: movimiento 30s linear alternate infinite;
+}
+@keyframes movimiento{
+from{
+  background-position: bottom left;
+}
+to{
+  background-position: top right;
+}
+}
+</style>
+
+</head>
+<body>
+  <center>
+    <div class="row-fluid">
+    <div class="container-fluid">
+      <h1 class="light blue-text">UNIVERSIDAD DE SAN CARLOS DE GUATEMALA -USAC-<br>
+      ESCUELA DE FORMACIÓN DE PROFESORES DE ENSEÑANZA MEDIA -EFPEM-<br></h1>
+      <center><img src="logo.png" width="10%"><img src="usacpng.png" width="8%"><img src="efpempng.png" width="8%"></center>
+    </div>
+  </center>
+
+<!--INICIA LAS DIVISIONES-->
+<div class="contenido" style="background-color: #A41C06">
+<center>
+<div class="container">
+    <h1 class="display-10">CURSO: DISEÑO DE PÁGINAS WEB</h1>
+    <p class="lead" style="font-size: 24px;">Curso dedicado a la creación y modelado de páginas web, asi como los contenidos competentes para el manejo de framworks y de la hoja de estilos, CSS</p><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #C71585; height: 60px;"><a href="ht1f1/index.html" style="text-decoration: none;"><font size="5px">PRIMER FRAMEWORK</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #66CDAA; height: 60px;"><a href="ht1f2/index.html" style="text-decoration: none;"><font size="5px">SEGUNDO FRAMEWORK</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #43ACD9; height: 60px;"><a href="ht1f3/index.html" style="text-decoration: none;"><font size="5px;">TERCER FRAMEWORK</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #9AC023  ; height: 60px;"><a href="../ht2disenioweb/index.html" style="text-decoration: none;"><font size="5px;">HOJA DE TRABAJO No. 2</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #66CDAA; height: 60px;"><a href="../dw19ht3201214088/index.html" style="text-decoration: none;"><font size="5px">HOJA DE TRABAJO No. 3</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #B7E209; height: 60px;"><a href="../ht4/index.html" style="text-decoration: none;"><font size="5px">HOJA DE TRABAJO No. 4</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #7F8C8D; height: 60px;"><a href="#index.html" style="text-decoration: none;"><font size="5px">HOJA DE TRABAJO No. 5 (LOADING...)</font></a></button><br>
+
+    <button type="submit" class="btn btn-primary btn-block" style="background-color: #7F8C8D; height: 60px;"><a href="#index.html" style="text-decoration: none;"><font size="5px">HOJA DE TRABAJO FINAL (LOADING...)</font></a></button><br>
+</div>
+
+
+<hr style="border-style: solid; border-width: 2px; color: blue;" width="100%">
+<p align="right">
+  colegionaphier@naphier.com.gt 12av. 2-32 zona 5
+</p>
+</div>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems);
+    });
+  </script>
+</body>
+</html>

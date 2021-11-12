@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+          <!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-float.min.css" integrity="sha256-sP0p6J7SbJGiJ2gkdY1nkVsLgdwiFN2kI370lU+zacQ= sha384-yZLxxcD8nfiSt1qfKJWwHwtkL58WZDTlkBnZN60qr3ZS35+LDsmUF2JHLxdyZ+KU sha512-Z3WbpfWFSsK2dBvoSYZnMvPmxSJUa5cxj3TYlmyj6cq8IXy7iB2nlUk+jjms8gnz4HmpQk/yhRSlRzW7keoSlg==" crossorigin="anonymous">
+
+      <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-prototype.min.css" integrity="sha256-ksLmXa0k3ACbX6azB9g6l7XlmSKFBkuH0DXKNwULXtE= sha384-RGTvu65DAT+yLQsTj5tnITDrMfrS5mbajNAYILSg4hHr9vRr/3Y9q0WAdChqLKfx sha512-KMJ7XYrv5UcwEvJFaYnLSdN5O3fT7aQvjed//LQPB3AsN4VPA/wXG9j4x4vKZkjNmU/U8aZC9Ac3FYxs9lPXcw==" crossorigin="anonymous">
+
+      <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation-rtl.min.css" integrity="sha256-jvk46bzgetf2fy3FF19toDOoy9CG3aFqZfd229doSyo= sha384-w6E9ynA6OV6MFswc7C8nr8QoBiRtqqOKF/5M9ZVyVDDyrUPLI75xizNuXgRZxWK5 sha512-7MZk47L+5Mj6Y0dP3NuB2aqlNdDgzTlCf8m50nvgnCHUbxZ9KabCy8VUzQAl/DqDKwR7E6JsCf1MUjkfCiVzJw==" crossorigin="anonymous">
+
+      <!-- Insert this within your head tag and after foundation.css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css"/>
+
+      <link href="carrusel_b.css" rel="stylesheet" type="text/css" />
+      <script src="carrusel_b.js"></script>
+
+      <!--_______________SCRIPT DEL CARRUSEL_________________-->    
+      <script>
+        function principal() { // onload body
+          new CarruselB({
+            id: "carrusel_b",
+            waiting: 5000, // milliseconds (false per desactivar)
+          });
+        }
+      </script>
+  </head>
+<body onload="principal()">
+<!--TITULO DE LA PAGINA-->
+<center>
+  <div class="grid-x grid-margin-x">
+      <div class="cell small-12"></div>
+    <div class="cell auto" style="background-color: aqua; padding: 1em;"><h1>COLEGIO JOHN NAPIER</h1></div>
+  </div><br>
+<!--INICIA CARRUSEL-->
+<div id="carrusel_b">
+    <ul class="photos_b">
+        <li><img id="foto1" src="1.png" width="100%"/></li>
+        <li><img id="foto2" src="2.jpg" width="100%"/></li>
+        <li><img id="foto3" src="3.jpg" width="100%"/></li>
+    </ul>
+    <ul class="links_b">
+        <li><a href="#foto1"></a></li>
+        <li><a href="#foto2"></a></li>
+        <li><a href="#foto3"></a></li>
+    </ul>
+</div>
+</center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--____________________INICIA BARRA DE NAVEGACION___________________-->
+<div class="grid-x" align="center" style="background-color: orange;">
+  <center>
+<ul class="menu align-center">
+  <li class="is-active"><a href="index.html">INICIO</a></li>
+  <li><a href="ubicacion.html">UBICACIÓN</a></li>
+  <li><a href="guias.html">PROFESORES GUIA</a></li>
+  <li><a href="../index.html">MENÚ PRINCIPAL</a></li>
+</ul>
+</center>
+</div><br>
+
+<!--____________________INICIAN MAQUETACIONES DE CONTENIDO___________________-->
+<div class="grid-x">
+  <div class="cell medium-6 large-4" style="padding-top: 7em;"><img src="logopng.png"></div>
+  <div class="cell medium-6 large-4" style="padding: 1em;"><center><h4><b>NUESTRA MISIÓN</b></h4></center>
+        <p style="text-align: justify; padding: 1em;">
+          El Colegio Cristiano La Sabiduría, es una Institución de carácter privado que tiene como misión, ofrecer educación personalizada, desde la perspectiva cristiana del hombre, del mundo, de la historia y del conocimiento, orientada a la formación de personas integrales, impactando a través de los saberes, sus dimensiones cognitiva, afectiva, actitudinal y valórica, para lograr mayores niveles de abstracción y reflexión, creatividad, autoestima, construcción y apropiación de su propio conocimiento, capacidad para resolver problemas, adaptación a cambios y transformación positiva de su realidad, trabajo en equipo, respeto y sentido de pertenencia, competitividad, sana convivencia y en general, mejor calidad de vida en el individuo, su familia, su medio ambiente y por tanto la sociedad. Atiende los niveles de básica Primaria, secundaria y Media Académica.
+        </p>
+</div>
+  <div class="cell medium-6 large-4" style="padding: 1em;"><center><h4><b>NUESTRA VISIÓN</b></h4></center>
+        <p style="text-align: justify; padding: 1em;">
+          Ser partícipes en el rediseño de los proyectos de vida, bajo los principios de Jesucristo, en cada uno de nuestros educandos. Fomentar en los estudiantes su competitividad en el medio laboral y académico, buscando siempre la excelencia como seres integrales que afectan y son afectados por su entorno.<br><br>
+
+          Participar en la consolidación de una sociedad más participativa, justa, democrática, auto gestora, transformadora de su entorno, dinámica, propiciando un mejoramiento en la calidad de vida de los miembros de la comunidad educativa.<br><br>
+
+          El colegio contará con la infraestructura adecuada, planta física propia en la sede Principal, y dotaciones que permitan realizar óptimamente el que hacer académico. 
+        </p>
+</div>
+</div>
+<div class="grid-x">
+  <div class="cell medium-6 large-4" style="padding-top: 9em; padding-left: 2em; ">
+    <center><h3>FORMULARIO DE ACCESO</h3>
+      <form>
+        NOMBRE DE USUARIO <br>
+        <input type="text" name="User"><br>
+        CONTRASEÑA <br>
+        <input type="text" name="Pass"><br><br>
+        <a class="button expanded" href="#">ACCEDER AL SISTEMA</a>
+      </form>
+    </center>
+  </div>
+    <div class="cell medium-6 large-8" style="padding: 1em;"><center><h4><b>NUESTROS VALORES</b></h4></center>
+      <p style="text-align: justify; padding: 1em;">
+        Amor: El amor es considerado como el conjunto de sentimientos que se manifiestan entre seres capaces de desarrollar inteligencia emocional o emocionalidad. El amor no sólo está circunscrito al género humano sino  también a todos aquellos seres que puedan desarrollar nexos emocionales con otros, por ejemplo, delfines, perros, caballos, etc.<br><br>
+
+        Paz: La paz es generalmente definida como un estado de tranquilidad o quietud, como una ausencia de disturbios, agitación o conflictos. Al igual que la paz entre amigos, compañeros de trabajo o más personal, entre parejas es importante para el buen funcionamiento de sus interrelaciones o relaciones entre sí.<br><br>
+
+        Humildad: La humildad es una calidad o característica humana que es atribuida a toda persona que se considere un ser pequeño e insignificante frente a lo trascendente de su existencia o a Dios según si se habla en términos teológicos. Una persona humilde generalmente ha de ser modesta y vivir sin mayores pretensiones: alguien que no piensa que él o ella es mejor o más importante que otros.<br><br>
+
+        Libertad: La palabra designa la facultad del ser humano que le permite decidir llevar a cabo o no una determinada acción. En otras palabras, lo que permite al hombre decidir si quiere hacer algo o no, lo hace libre, pero también responsable de sus actos.<br><br>
+
+        Puntualidad: El valor que se construye por el esfuerzo de estar a tiempo en el lugar adecuado. El valor de la puntualidad es la disciplina de estar a tiempo para cumplir nuestras obligaciones.<br><br>
+
+        Responsabilidad: Plantearse qué es la responsabilidad no es algo tan sencillo. Un elemento indispensable dentro de la responsabilidad es el cumplir un deber. La responsabilidad es una obligación, ya sea moral o incluso legal de cumplir con lo que se ha comprometido.<br><br>
+
+        Sencillez: La Sencillez es esencial, sólo puede surgir cuando empezamos a comprender el significado del conocimiento propio. Creemos que es una expresión externa, pocas posesiones, ropas, cosas, pero eso no es sencillez. La verdadera sencillez sólo puede originarse interiormente, y de ahí proviene la expresión externa. Lo que uno es en su interior fluye al exterior. Interiormente somos prisioneros, aunque en lo externo parezcamos muy sencillos.<br><br>
+
+        Tolerancia social: La tolerancia, del latín tolerare (sostener, soportar), es una noción que define el grado de aceptación frente a un elemento contrario a una regla moral, civil o física. Más generalmente, define la capacidad de un individuo de aceptar una cosa con la que no está de acuerdo. Y por extensión moderna, la actitud de un individuo frente a lo que es diferente de sus valores.<br><br>
+
+        Trabajo: es una de las principales actividades humanas y sociales. Para la Doctrina social de la Trabajo es la ciencia que estudia el hacer una labor o producir algo a cambio de un salario o sueldo.
+      </p>
+  </div>
+</div>
+<hr>
+<center>
+  <p style="font-style: italic;"><b>Colegio John Napier, 5av. 12-32 zona 5, Guatemala johnnapier@johnnapier.com.gt</b></p>
+</center>
+</body>
+</html>

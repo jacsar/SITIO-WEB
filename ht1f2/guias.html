@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="es">
+	<title>Prof. Guías</title>
+	<link REL=StyleSheet HREF="estilos.css" TYPE="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body id="cuerpo">
+<div id="encabezado">
+		<center><h1>CENTRO EDUCATIVO JHON NAPPIER</h1></center>
+	</div>
+<!--INICIA CARRUSEL-->
+	<center>
+  <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="1.png" alt="no existe">
+      </div>
+
+      <div class="item">
+        <img src="2.jpg" alt="no existe">
+      </div>
+    
+      <div class="item">
+        <img src="3.jpg" alt="No existe">
+      </div>
+
+      <div class="item">
+        <img src="4.jpg" alt="No existe">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div><br>
+<!-- MENU DE ENLACES -->
+<center>
+		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default" style="background-color: #58D68D;"><a href="index.html">INICIO</a></button>
+	  </div>
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default" style="background-color: #85C1E9;"><a href="ubicacion.html">UBICACIÓN</a></button>
+	  </div>
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default" style="background-color: #922B21;"><a href="guias.html">MAESTROS GUÍAS</a></button>
+	  </div>
+		</div>
+</center><br>
+<!--INICIA LA TABLA-->
+<div class="row" align="left">
+  <div class="col-sm-4" id="fila">
+    <img src="logo.png" width="575px" height="200px"><br><br><br>
+    <center><br><br><br><br>
+      <font size="5" face="arial"><b>INICIO DE SESIÓN</b></font><br><br>
+      <form>
+        <input type="text" name="User" placeholder="Nombre de Usuario"><br><br>
+        <input type="text" name="Pass" placeholder="Contraseña"><br><br>
+        <input type="submit" name="Btn" value="INICIAR SESIÓN"><br><br><br><br><br><br><br>
+      </form>
+    </center>
+  </div>
+  <div class="col-sm-8">
+    <center>
+	<table border="3" width="95%">
+		<tr bgcolor="gray">
+			<td><center><b>Grado</b></center></td>
+			<td><center><b>Sección</b></center></td>
+			<td><center><b>Maestro Guía</b></center></td>
+			<td><center><b>Correo Alectrónico</b></center></td>
+		</tr>
+		<tr>
+			<td><center>Primero Básico</center><br></td>
+			<td><center>A</center></td>
+			<td><center>Martha Sánchez</center></td>
+			<td><center>martha.sanchez@johnnapier.com</center></td>
+		</tr>
+		<tr bgcolor="gray">
+			<td><center>Primero Básico</center><br></td>
+			<td><center>B</center></td>
+			<td><center>Daniel Martínez</center></td>
+			<td><center>daniel.martinez@johnnapier.com</center></td>
+		</tr>
+		<tr>
+			<td><center>Segundo Básico</center><br></td>
+			<td><center>A</center></td>
+			<td><center>Josué Álvarez</center></td>
+			<td><center>josue.alvarez@johnnapier.com</center></td>
+		</tr>
+		<tr bgcolor="gray">
+			<td><center>Segundo Básico</center><br></td>
+			<td><center>B</center></td>
+			<td><center>Ricardo Montes</center></td>
+			<td><center>ricardo.montes@johnnapier.com</center></td>
+		</tr>
+		<tr>
+			<td><center>Tercero Básico</center><br></td>
+			<td><center>A</center></td>
+			<td><center>Marcos Puluc</center></td>
+			<td><center>marcos.puluc@johnnapier.com</center></td>
+		</tr>
+		<tr bgcolor="gray">
+			<td><center>Tercero Básico</center><br></td>
+			<td><center>B</center></td>
+			<td><center>Genovevo Páez</center></td>
+			<td><center>genovevo.paez@johnnapier.com</center></td>
+		</tr>
+	</table>
+</center>
+  </div>
+  <hr style="border-style: solid; border-width: 3px; color: blue;" width="100%">
+
+<div class="row" id="pie">
+ <div class="col-sm-12">
+   <b id="pie"><font size="3" face="comic sanz ms">jhonnapier@gmail.com 15Av. 2-54 zona 3, Guatemala Ciudad</font></b>
+  </div>
+</div><br>
+</body>
+</html>

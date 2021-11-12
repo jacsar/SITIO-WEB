@@ -1,0 +1,16 @@
+#encabezado{
+	background-color: #85C1E9;
+	border-radius: 8px;
+}
+#cuerpo{
+	padding: 15	px;
+	background-color: 205, 97, 85,0;
+}
+.row{
+	text-align: justify;
+}
+#pie{
+	text-align: right;
+	font-style: italic;	
+
+}

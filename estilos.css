@@ -1,0 +1,14 @@
+.container-fluid{
+	padding-top: 3em;
+	height: 400px;
+	background-image: url(lab.jpg);
+	animation: movimiento 30s linear alternate infinite;
+}
+@keyframes movimiento{
+from{
+	background-position: bottom left;
+}
+to{
+	background-position: top right;
+}
+}
